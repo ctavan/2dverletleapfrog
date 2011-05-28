@@ -1,7 +1,7 @@
 CC = g++ -O3
 CFLAGS = -o
 LIBS = -g -Wall -lm
-PROGRAMNAME = verletleapfrog
+PROGRAMNAME = leapfrog
 
 # Standardaufruf durch 'make' oder 'make default'
 default: main.c main.o
