@@ -8,7 +8,7 @@ default: main.c main.o
 	$(CC) $(CFLAGS) $(PROGRAMNAME) main.o $(LIBS)
 
 # Abhaengigkeiten
-main.o: main.c ran.h
+main.o: main.c
 
 # Erzeugen oder Aktualisieren einer object-Datei
 # $< wird durch den Namen der c-Datei ersetzt
